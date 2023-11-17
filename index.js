@@ -9,5 +9,5 @@ var requestHandlers = require("./requestHandlers");
 var handle = {}
 handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
-
+console.log("Test");
 server.start(router.route, handle);
